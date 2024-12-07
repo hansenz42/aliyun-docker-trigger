@@ -13,4 +13,5 @@ module.exports = {
 		},
 		subscribers: process.env.EMAIL_SUBSCRIBERS,
 	},
+	dockerMode: process.env.DOCKER_MODE | 'swarm',
 }
