@@ -14,4 +14,5 @@ module.exports = {
 		subscribers: process.env.EMAIL_SUBSCRIBERS,
 	},
 	dockerMode: process.env.DOCKER_MODE | 'swarm',
+	serverName: process.env.SERVER_NAME | 'aliyun-docker-trigger',
 }
