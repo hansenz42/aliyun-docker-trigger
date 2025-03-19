@@ -13,6 +13,6 @@ module.exports = {
 		},
 		subscribers: process.env.EMAIL_SUBSCRIBERS,
 	},
-	dockerMode: process.env.DOCKER_MODE | 'compose',
-	serverName: process.env.SERVER_NAME | 'aliyun-docker-trigger',
+	dockerMode: process.env.DOCKER_MODE || 'compose',
+	serverName: process.env.SERVER_NAME || 'aliyun-docker-trigger',
 }
