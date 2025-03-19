@@ -1,4 +1,6 @@
-FROM node:lts-alpine
+#FROM node:lts-alpine
+
+FROM registry.cn-hangzhou.aliyuncs.com/assen-private/node:lts-aplpine
 
 WORKDIR /app
 
